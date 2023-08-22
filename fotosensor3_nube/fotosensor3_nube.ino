@@ -11,9 +11,9 @@ const int B = 15;        //Resistencia a la luz (10 Lux) en KΩ
 
 //Conexión a Wifi
 //Nombre de la red Wifi
-const char ssid[] = "HOME-DA19";
+const char ssid[] = "SSID";
 //Contraseña de la red Wifi
-const char pass[] = "0F0FE28673E28C4";
+const char pass[] = "232535";
 
 //Usuario uniandes sin @uniandes.edu.co
 #define HOSTNAME "c.agudeloh"
@@ -24,7 +24,7 @@ const int MQTT_PORT = 8082;
 //Usuario uniandes sin @uniandes.edu.co
 const char MQTT_USER[] = "c.agudeloh";
 //Contraseña de MQTT que recibió por correo
-const char MQTT_PASS[] = "202213353";
+const char MQTT_PASS[] = "XXXXXXXX";
 const char MQTT_SUB_TOPIC[] = HOSTNAME "/";
 //Tópico al que se enviarán los datos de intensidad luminica
 const char MQTT_PUB_TOPIC1[] = "luminosidad/bogota/" HOSTNAME;
